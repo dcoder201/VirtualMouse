@@ -2,9 +2,10 @@
 import cv2
 import mediapipe as mp
 
-# capture video
+
 import pyautogui
 
+# capture video
 capture = cv2.VideoCapture(0)
 # calling hand detection method from mediapipe
 detect_hand = mp.solutions.hands.Hands()
